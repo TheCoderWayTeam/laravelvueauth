@@ -1,16 +1,31 @@
-# laravel8 vue2 auth System 
+# laravelvueauth
+Laravel-8 and Vue-2 Login, Register Forgot and Reset Password With Profile.
+
+This is a Laravel 8 and Vue2 starter project with Login, Register Forgot and Reset Password and Profile
+
 complete login/register system on Laravel 8 and Vue2
 
-Step 1. git clone https://github.com/thecoderbalram/laravelvueauth.git
+## Usage
 
-Step 2. add .env file
+This is not a package - it's a full Laravel/Vue project that you should use as a starter, and then add your own custom functionality.
 
-Step 3. composer update
+- Clone the repository with `git clone`
+- Copy `.env.example` file to `.env` and edit database credentials there
+- Run `composer update`
+- Run `php artisan optimize:clear`
+- Run `php artisan config:clear`
+- Run `php artisan migrate`
+- Run `npm install` (Node package manager for Vue)
+- Run `npm run watch`
+- Run `php artisan serve`
 
-step 4. php artisan migrate
+- That's it: launch the main URL
 
-step 6. npm install
+## License
 
-step 7. npm run watch
+The [MIT license](http://opensource.org/licenses/MIT).
 
-step 8. php artisan serve
+
+## THECODERWAY "We develope your Dreams"
+## "with code,"
+## "with proud"
